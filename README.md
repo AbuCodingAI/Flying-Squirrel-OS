@@ -1,10 +1,10 @@
-╔═════════════════════════╗
+╔══════════════════╗
 
 ║Flying Squirrel OS README           ║
 
-║Every Command Reference                               ║
+║Every Command Here Now                               ║
 
-╚═════════════════════════╝
+╚══════════════════╝
 
                     
 
