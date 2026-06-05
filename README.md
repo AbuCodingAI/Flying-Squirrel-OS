@@ -1,15 +1,17 @@
-╔════════════════════════════════════════════════════════════════╗
-║           Flying Squirrel OS Recovery Shell v1.0               ║
-║                  All Commands Reference                        ║
-╚════════════════════════════════════════════════════════════════╝
+╔═════════════════════════╗
 
+║Flying Squirrel OS README           ║
 
+║Every Command Reference                               ║
 
+╚═════════════════════════╝
 
+                    
 
 
 🔧 RECOVERY TOOLS (Filesystem Repair)
 ──────────────────────────────────────
+
 fixLinux <device>
   Repair ext4 filesystem
   Example: fixLinux /dev/sda1
@@ -42,6 +44,7 @@ unmount <mount_point>
 
 📁 NAVIGATION & FILES
 ──────────────────────────────────────
+
 ls [path]
   List files and directories
   Example: ls
@@ -64,6 +67,7 @@ r+w <file>
 
 💾 DISK & DRIVE OPERATIONS
 ──────────────────────────────────────
+
 ls //
   List all disks and partitions
   Output shows disk size, partitions, filesystem types
@@ -82,6 +86,7 @@ dv partition <device>
 
 🖥️  SYSTEM COMMANDS
 ──────────────────────────────────────
+
 help
   Show this command list
   Example: help
@@ -97,6 +102,7 @@ q
 
 🎯 COMMON RECOVERY SCENARIOS
 ──────────────────────────────────────
+
 
 1️⃣  Repair broken Linux system:
    mount_drive /dev/sda1 /mnt
@@ -130,6 +136,7 @@ q
 
 📋 PROMPT FORMAT
 ──────────────────────────────────────
+
 squirrel[/current/path]#
 
 Shows current directory after each cd command
@@ -137,6 +144,7 @@ Shows [chrooted] if /set is active
 
 ⚠️  ERROR MESSAGES
 ──────────────────────────────────────
+
 All errors follow format:
 ERROR: command failed — reason
 
@@ -147,6 +155,7 @@ ERROR: fixWin failed — NTFS repair not supported
 
 ✨ SPECIAL FEATURES
 ──────────────────────────────────────
+
 • Tab completion (partial, if enabled)
 • Command history (arrow keys, if enabled)
 • Persistent working directory (cd sticks)
@@ -155,10 +164,10 @@ ERROR: fixWin failed — NTFS repair not supported
 
 🐿️  BOOT VERSIONS
 ──────────────────────────────────────
+
 BIOS version:   squirrel-bios.iso (128KB) - MBR bootloader
 UEFI version:   squirrel-uefi.iso (380KB) - UEFI bootloader
 Both fit on a single 3.5" floppy disk!
 
-═══════════════════════════════════════════════════════════════════
-Flying Squirrel OS Recovery — Minimal. Fast. Reliable. 🐿️
+##Flying Squirrel OS Recovery — Minimal. Fast. Reliable. 🐿️
 ═══════════════════════════════════════════════════════════════════
